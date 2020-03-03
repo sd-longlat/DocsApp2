@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsApp2", "DocsApp2\DocsApp2.csproj", "{DF58D358-E4C0-4DE6-B61E-D85ECD060D9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF58D358-E4C0-4DE6-B61E-D85ECD060D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF58D358-E4C0-4DE6-B61E-D85ECD060D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF58D358-E4C0-4DE6-B61E-D85ECD060D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF58D358-E4C0-4DE6-B61E-D85ECD060D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {179DE92F-C260-4756-85DB-85AB614B6858}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\bin\Debug\DocsApp2.exe.config
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\bin\Debug\DocsApp2.exe
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\bin\Debug\DocsApp2.pdb
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.csprojAssemblyReference.cache
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.Form1.resources
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.Properties.Resources.resources
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.csproj.GenerateResource.cache
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.exe
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.pdb
+C:\Users\DSL\source\repos\DocsApp2\DocsApp2\obj\Debug\DocsApp2.Form2.resources

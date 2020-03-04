@@ -12,9 +12,22 @@ namespace DocsApp2
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public static int Brunch, Till;
+        public static string Address, FIO;
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime localDate = DateTime.Now;
+            labelData.Text = labelData.Text + localDate.ToString("MM/dd/yyyy HH:mm:ss");
+        }
+
+        public Form2(int Brunch_p, string Addres_p, int Till_p, string FIO_p)
         {
             InitializeComponent();
+            Brunch = Brunch_p;
+            Address = Addres_p;
+            Till = Till_p;
+            FIO = FIO_p;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -132,6 +145,12 @@ namespace DocsApp2
 
             //Экспорт  таблицы
             //ds.WriteXml("chek.xml", XmlWriteMode.WriteSchema);
+
+            //+++++++++++Установка инфы++++++++++
+            labelBrunch.Text = labelBrunch.Text + Brunch.ToString();
+            labelTill.Text = labelTill.Text + Till.ToString();
+            labelFIO.Text = labelFIO.Text + FIO;
+            //----------Установка инфы----------
         }
     }
 }

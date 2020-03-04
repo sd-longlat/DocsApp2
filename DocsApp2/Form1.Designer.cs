@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.comboBoxBranch = new System.Windows.Forms.ComboBox();
             this.numericUpDownTill = new System.Windows.Forms.NumericUpDown();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxAddress = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBoxFIO = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownTill)).BeginInit();
             this.SuspendLayout();
@@ -76,13 +76,13 @@
             0,
             0});
             // 
-            // comboBox1
+            // comboBoxAddress
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(29, 110);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 28);
-            this.comboBox1.TabIndex = 2;
+            this.comboBoxAddress.FormattingEnabled = true;
+            this.comboBoxAddress.Location = new System.Drawing.Point(29, 110);
+            this.comboBoxAddress.Name = "comboBoxAddress";
+            this.comboBoxAddress.Size = new System.Drawing.Size(182, 28);
+            this.comboBoxAddress.TabIndex = 2;
             // 
             // label1
             // 
@@ -120,13 +120,13 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Кассир:";
             // 
-            // comboBox2
+            // comboBoxFIO
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(29, 234);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(182, 28);
-            this.comboBox2.TabIndex = 6;
+            this.comboBoxFIO.FormattingEnabled = true;
+            this.comboBoxFIO.Location = new System.Drawing.Point(29, 234);
+            this.comboBoxFIO.Name = "comboBoxFIO";
+            this.comboBoxFIO.Size = new System.Drawing.Size(182, 28);
+            this.comboBoxFIO.TabIndex = 6;
             // 
             // button1
             // 
@@ -137,6 +137,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "→";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -145,13 +146,14 @@
             this.ClientSize = new System.Drawing.Size(236, 348);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBoxFIO);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxAddress);
             this.Controls.Add(this.numericUpDownTill);
             this.Controls.Add(this.comboBoxBranch);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -165,12 +167,12 @@
 
         private System.Windows.Forms.ComboBox comboBoxBranch;
         private System.Windows.Forms.NumericUpDown numericUpDownTill;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxAddress;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBoxFIO;
         private System.Windows.Forms.Button button1;
     }
 }
